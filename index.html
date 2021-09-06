@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form for front-ends jrs.</title>
+    <link href="estilos/estilos.css" rel="stylesheet">
+</head>
+<body>
+    <h1 id=title> Web form for FrontEnds Jrs </h1>
+
+    <p id=description>This web form is dedicated to people who are just starting in this world of web development</p>
+    
+    
+     <div class="forma">
+    <form id="survey-form">
+      <label for="name" id="name-label" >Name:</label>
+      <br/>
+     <input id="name" type="text" name="name" placeholder="Add your name" class="form-inputs" required>
+      <br/>
+      <label for="f2" id="email-label">Email:</label>
+      <br/>
+      <input id=email type="email" name="email" placeholder="Enter your email" class="form-inputs"  required>
+    <br/>
+      <label for="f3" id="number-label">Age:</label>
+      <br/>
+    <input id=number type="number" name="email" placeholder="18" class="form-inputs"  required min="18" max="100"  >
+    
+    <br/>
+      <label for="f4" id="countr-label">Country:</label>
+      <br/>
+    <input id=country type="text" placeholder="Enter your country" class="form-inputs" required>
+      <br/>
+      <br/>
+      What did you burn it cost you to learn?
+      <br/>
+      <select id="dropdown"> 
+        <option selected value="0"> Choose an option </option>
+        <option value="1">HTML5</option>
+        <option value="2">CSS</option>
+        <option value="3">JavaScript</option>
+      </select>
+      <br/>
+      <br/>
+      
+      <label id="red-social" for="social"><b>If you hadn't chosen front-end, what would you choose?</b></label>
+      <br/>
+      <input id="red-social" type="radio" name="red" value="data">
+      <label for="red-social">Data analytics</label>
+      <br/>
+      <input id="red-social" type="radio" name="red" value="back">
+      <label for="red-social">Back-end</label>
+      <br/>
+      <input id="red-social" type="radio" name="red" value="software">
+      <label for="red-social">Software development</label>
+      <br/>
+      <br/>
+      
+      <label for="like"><b>What language do you like the most?</b></label>
+     <br/>
+     <br/>
+      <input id="checkbox" type=checkbox name="like" value="css">
+      <label for="like"> CSS </label>
+      <br/>
+      <input id="checkbox" type=checkbox name="like" value=" HTML">
+      <label for="like"> HTML </label>
+      <br/>
+      <input id="checkbox" type=checkbox name="like" value="javaScript">
+      <label for="javaScript"> JavaScript</label>
+      <br/>
+      <br/>
+      <label id="textarea">Add comments: </label>
+    <br>
+    <textarea id="textarea" name="instructions" rows="5" cols="59.5">
+    </textarea>
+    <br>
+      
+    <input id="submit" type="submit" value="Sumbit" class="submit-button">
+      </div>
+                                        
+        
+    </form>
+    
+</body>
+</html>
